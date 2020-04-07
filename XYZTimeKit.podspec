@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
 
-    s.name         = "SHTManager"
-    s.version      = "1.1.3"
+    s.name         = "XYZTimeKit"
+    s.version      = "2.0.1"
     s.summary      = "Deal with Time."
     s.description  = <<-DESC
         Private pod to deal with Time form
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     s.author             = { "Brandy" => "" }
     s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
     s.platform     = :ios, "13.0"
-    s.source       = { :git => "https://github.com/brandy2015/SHTManager.git", :tag => "1.1.3"}
-    s.source_files = "SHTManager/Source/*"
+    s.source       = { :git => "https://github.com/brandy2015/XYZTimeKit.git", :tag => "2.0.1"}
+    s.source_files = "XYZTimeKit/Source/*"
 
 end
