@@ -9,18 +9,18 @@
 import UIKit
  
 
-var XYZTime = XYZTimeKit()
+public var XYZTime = XYZTimeKit()
 
 public class XYZTimeKit:NSObject  {
-    var Now:Date{
+    public var Now:Date{
         return Date()
     }
     
-    var NowString:String{
+    public var NowString:String{
         return Date().XYZTimeString
     }
     
-    var NowNoZoneString:String{
+    public var NowNoZoneString:String{
         return "\(Date())"
     }
     
