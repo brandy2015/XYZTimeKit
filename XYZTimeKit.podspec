@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "XYZTimeKit"
-    s.version      = "2.0.2"
+    s.version      = "2.0.3"
     s.summary      = "Deal with Time."
     s.description  = <<-DESC
         Private pod to deal with Time form
@@ -21,11 +21,12 @@ Pod::Spec.new do |s|
     s.swift_version = '5.0'
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
     s.ios.deployment_target = '13.0'
-    s.dependency 'SwiftDate'
+   # s.dependency 'SwiftDate'
     s.author             = { "Brandy" => "" }
     s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
     s.platform     = :ios, "13.0"
-    s.source       = { :git => "https://github.com/brandy2015/XYZTimeKit.git", :tag => "2.0.2"}
-    s.source_files = "XYZTimeKit/Source/*"
+    s.source       = { :git => "https://github.com/brandy2015/XYZTimeKit.git", :tag => "2.0.3"}
+    
+    s.source_files = "{XYZTimeKit/Source/*,XYZTimeKit/Source/SwiftDate/*,XYZTimeKit/Source/SwiftDate/*/*,XYZTimeKit/Source/SwiftDate/*/*/*}"
 
 end

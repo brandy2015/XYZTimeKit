@@ -6,9 +6,7 @@
 //  Copyright © 2020 张子豪. All rights reserved.
 //
 
-import UIKit
-import SwiftDate
-
+import UIKit 
 
 extension String{
     //    static var XYZDateStringType_AllForName = "yyyyMMddHHmmss"
