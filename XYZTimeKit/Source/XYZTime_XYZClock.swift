@@ -9,9 +9,12 @@
 import UIKit
  
 class XYZTime_XYZClock: NSObject {
-//    let interval: TimeInterval = (2.hours.timeInterval) + (34.minutes.timeInterval) + (5.seconds.timeInterval)
-//    let xxxs = interval.toClock() // "2:34:05"
-//    print(xxxs)
+    func PrintClock()    {
+        let interval: TimeInterval = (2.hours.timeInterval) + (34.minutes.timeInterval) + (5.seconds.timeInterval)
+        let xxxs = interval.toClock() // "2:34:05"
+        print(xxxs)
+    }
+
 }
 //
 //

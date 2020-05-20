@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
 
     s.name         = "XYZTimeKit"
-    s.version      = "2.0.4"
+    s.version      = "2.0.5"
     s.summary      = "Deal with Time."
     s.description  = <<-DESC
         Private pod to deal with Time form
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
     s.author             = { "Brandy" => "" }
     s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
     s.platform     = :ios, "13.0"
-    s.source       = { :git => "https://github.com/brandy2015/XYZTimeKit.git", :tag => "2.0.4"}
+    s.source       = { :git => "https://github.com/brandy2015/XYZTimeKit.git", :tag => "2.0.5"}
     
     s.source_files = "{XYZTimeKit/Source/*,XYZTimeKit/Source/SwiftDate/*,XYZTimeKit/Source/SwiftDate/*/*,XYZTimeKit/Source/SwiftDate/*/*/*}"
 
