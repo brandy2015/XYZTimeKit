@@ -182,6 +182,7 @@
 		D6E31BA12473DB5A001B2026 /* String+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E31B032473DB5A001B2026 /* String+Parser.swift */; };
 		D6E31BA22473DB5A001B2026 /* Int+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E31B042473DB5A001B2026 /* Int+DateComponents.swift */; };
 		D6E31BA32473DB5A001B2026 /* DateRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E31B052473DB5A001B2026 /* DateRepresentable.swift */; };
+		D6EC527125F9E0C300824EF0 /* MusicDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC527025F9E0C300824EF0 /* MusicDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -367,6 +368,7 @@
 		D6E31B032473DB5A001B2026 /* String+Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Parser.swift"; sourceTree = "<group>"; };
 		D6E31B042473DB5A001B2026 /* Int+DateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+DateComponents.swift"; sourceTree = "<group>"; };
 		D6E31B052473DB5A001B2026 /* DateRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateRepresentable.swift; sourceTree = "<group>"; };
+		D6EC527025F9E0C300824EF0 /* MusicDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -411,6 +413,7 @@
 				D6BEF179243C50C200828273 /* XYZTime_XYZDate_StringType.swift */,
 				D6BEF17B243C568800828273 /* XYZTime_XYZDate_CountDays.swift */,
 				D6BEF17D243C583E00828273 /* XYZTime_DateToString_ForApp.swift */,
+				D6EC527025F9E0C300824EF0 /* MusicDate.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -933,6 +936,7 @@
 				D6BEF172243B0FC800828273 /* XYZTime_GoToAnotherDate.swift in Sources */,
 				D6BEF178243C0E2000828273 /* XYZTime_XYZDate_FromString.swift in Sources */,
 				D6E31B102473DB5A001B2026 /* TimeStructures.swift in Sources */,
+				D6EC527125F9E0C300824EF0 /* MusicDate.swift in Sources */,
 				D6E31B152473DB5A001B2026 /* TimePeriodGroup.swift in Sources */,
 				D6E31B072473DB5A001B2026 /* DateInRegion+Components.swift in Sources */,
 				D6E31B172473DB5A001B2026 /* TimePeriodCollection.swift in Sources */,
