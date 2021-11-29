@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		190283D2616DC10C2EA15D885F55DC1C /* Pods-XYZTimeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4C62E7817B7F0650032493E3B13FDE /* Pods-XYZTimeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5EA34EFE69F1FEF3BC86F8CBAE5E2BAA /* Pods-XYZTimeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FDECF52BDE0F331768DBA93FD7BCF9 /* Pods-XYZTimeKit-dummy.m */; };
-		67EBCA084179E0184B983A6BCBAA7BA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		2C1BDFE17AC2D5E7F5620B87E00979E0 /* Pods-XYZTimeKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 03FDECF52BDE0F331768DBA93FD7BCF9 /* Pods-XYZTimeKit-dummy.m */; };
+		4879FEF5FBFC00551424DFED2BF15E5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C2E4F25F2C7A7F329D40C353BA8C251C /* Pods-XYZTimeKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CB4C62E7817B7F0650032493E3B13FDE /* Pods-XYZTimeKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		03FDECF52BDE0F331768DBA93FD7BCF9 /* Pods-XYZTimeKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYZTimeKit-dummy.m"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		80C5F1E73B77BE34066239D8D90B1D3A /* Pods-XYZTimeKit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYZTimeKit-acknowledgements.markdown"; sourceTree = "<group>"; };
-		98B6066F9F22A5CA9ED492D5ECF32293 /* Pods_XYZTimeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XYZTimeKit.framework; path = "Pods-XYZTimeKit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98B6066F9F22A5CA9ED492D5ECF32293 /* Pods-XYZTimeKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-XYZTimeKit"; path = Pods_XYZTimeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B32C163179A6E8A86AED3C616224D5AD /* Pods-XYZTimeKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYZTimeKit-Info.plist"; sourceTree = "<group>"; };
 		B596245E238BD5F509B39A0897ACEA8F /* Pods-XYZTimeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYZTimeKit.release.xcconfig"; sourceTree = "<group>"; };
@@ -27,11 +27,11 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		47A3AC9948A19F9C25914EE88086BC5C /* Frameworks */ = {
+		CC16980296F7DC2A6ECCA11C43418578 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67EBCA084179E0184B983A6BCBAA7BA6 /* Foundation.framework in Frameworks */,
+				4879FEF5FBFC00551424DFED2BF15E5B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,14 +44,6 @@
 				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		80C1A3711026AC518E2B3042E5DC4CD5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				98B6066F9F22A5CA9ED492D5ECF32293 /* Pods_XYZTimeKit.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		8DE15E44D94B4134A8EF6521EC792133 /* Pods-XYZTimeKit */ = {
@@ -83,7 +75,7 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				80C1A3711026AC518E2B3042E5DC4CD5 /* Products */,
+				D4B3112EA7DA23D5E3A2B867A47E538E /* Products */,
 				BA5FD4660B36A2EDE4615EC411ACC375 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -96,14 +88,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D4B3112EA7DA23D5E3A2B867A47E538E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98B6066F9F22A5CA9ED492D5ECF32293 /* Pods-XYZTimeKit */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		05308B4C1E4C9A187AEC395B748074CC /* Headers */ = {
+		0FE0DD396B343301C86AFF6661EAB2C3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				190283D2616DC10C2EA15D885F55DC1C /* Pods-XYZTimeKit-umbrella.h in Headers */,
+				C2E4F25F2C7A7F329D40C353BA8C251C /* Pods-XYZTimeKit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,20 +112,20 @@
 /* Begin PBXNativeTarget section */
 		652E26F4B442D196BD1F4259D5C4544B /* Pods-XYZTimeKit */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C0AE20062A0EC19DEF8D382B5AD6D4C /* Build configuration list for PBXNativeTarget "Pods-XYZTimeKit" */;
+			buildConfigurationList = 9F4B6BC93124FA75231DEF2DDB8BEFC0 /* Build configuration list for PBXNativeTarget "Pods-XYZTimeKit" */;
 			buildPhases = (
-				05308B4C1E4C9A187AEC395B748074CC /* Headers */,
-				A45B70B102831A1F95A7232E1064A09C /* Sources */,
-				47A3AC9948A19F9C25914EE88086BC5C /* Frameworks */,
-				C159BBB0285797F83BFAFA3ADD416248 /* Resources */,
+				0FE0DD396B343301C86AFF6661EAB2C3 /* Headers */,
+				BD409D38E278F2EA317EF1E281E8F575 /* Sources */,
+				CC16980296F7DC2A6ECCA11C43418578 /* Frameworks */,
+				90315E05D8F5886EDAAC874288523EA3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Pods-XYZTimeKit";
-			productName = "Pods-XYZTimeKit";
-			productReference = 98B6066F9F22A5CA9ED492D5ECF32293 /* Pods_XYZTimeKit.framework */;
+			productName = Pods_XYZTimeKit;
+			productReference = 98B6066F9F22A5CA9ED492D5ECF32293 /* Pods-XYZTimeKit */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -134,19 +134,19 @@
 		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
 				Base,
+				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 80C1A3711026AC518E2B3042E5DC4CD5 /* Products */;
+			productRefGroup = D4B3112EA7DA23D5E3A2B867A47E538E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -156,7 +156,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C159BBB0285797F83BFAFA3ADD416248 /* Resources */ = {
+		90315E05D8F5886EDAAC874288523EA3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -166,54 +166,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A45B70B102831A1F95A7232E1064A09C /* Sources */ = {
+		BD409D38E278F2EA317EF1E281E8F575 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5EA34EFE69F1FEF3BC86F8CBAE5E2BAA /* Pods-XYZTimeKit-dummy.m in Sources */,
+				2C1BDFE17AC2D5E7F5620B87E00979E0 /* Pods-XYZTimeKit-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		34E0B7B549770785DE91877CE9522883 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FBEEDB00467154EB2CD0B411E2A87392 /* Pods-XYZTimeKit.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-XYZTimeKit/Pods-XYZTimeKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-XYZTimeKit/Pods-XYZTimeKit.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -342,7 +305,7 @@
 			};
 			name = Release;
 		};
-		CA5EBC96644EC6B4F5ACABA837CAB92B /* Release */ = {
+		BBC0B1F65C97AF6B70D98434989EB110 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B596245E238BD5F509B39A0897ACEA8F /* Pods-XYZTimeKit.release.xcconfig */;
 			buildSettings = {
@@ -380,23 +343,60 @@
 			};
 			name = Release;
 		};
+		E6B105A935E65B2B2479110315776430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBEEDB00467154EB2CD0B411E2A87392 /* Pods-XYZTimeKit.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-XYZTimeKit/Pods-XYZTimeKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XYZTimeKit/Pods-XYZTimeKit.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C0AE20062A0EC19DEF8D382B5AD6D4C /* Build configuration list for PBXNativeTarget "Pods-XYZTimeKit" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				34E0B7B549770785DE91877CE9522883 /* Debug */,
-				CA5EBC96644EC6B4F5ACABA837CAB92B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
 				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F4B6BC93124FA75231DEF2DDB8BEFC0 /* Build configuration list for PBXNativeTarget "Pods-XYZTimeKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6B105A935E65B2B2479110315776430 /* Debug */,
+				BBC0B1F65C97AF6B70D98434989EB110 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
