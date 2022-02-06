@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6100A574908407DD8EF88E60 /* Pods_XYZTimeKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C469DA87EEFDC6025F2E0562 /* Pods_XYZTimeKit.framework */; };
+		D6531C7427AF58FE00AE4E0F /* XYZDateCompare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6531C7327AF58FE00AE4E0F /* XYZDateCompare.swift */; };
 		D6BEF16B243AED9D00828273 /* XYZTimeKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEF16A243AED9D00828273 /* XYZTimeKit.swift */; };
 		D6BEF16D243AEDC700828273 /* XYZTimeKit_XYZDate_DateToString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEF16C243AEDC700828273 /* XYZTimeKit_XYZDate_DateToString.swift */; };
 		D6BEF170243AEE1000828273 /* testFactory_LifeCycle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEF16F243AEE1000828273 /* testFactory_LifeCycle.swift */; };
@@ -189,6 +190,7 @@
 		BCAB0B6E3EC6F53AE50C168A /* Pods-XYZTimeKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZTimeKit.debug.xcconfig"; path = "Target Support Files/Pods-XYZTimeKit/Pods-XYZTimeKit.debug.xcconfig"; sourceTree = "<group>"; };
 		C469DA87EEFDC6025F2E0562 /* Pods_XYZTimeKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYZTimeKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D596CB4497888EBF209A848F /* Pods-XYZTimeKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYZTimeKit.release.xcconfig"; path = "Target Support Files/Pods-XYZTimeKit/Pods-XYZTimeKit.release.xcconfig"; sourceTree = "<group>"; };
+		D6531C7327AF58FE00AE4E0F /* XYZDateCompare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZDateCompare.swift; sourceTree = "<group>"; };
 		D6BEF16A243AED9D00828273 /* XYZTimeKit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZTimeKit.swift; sourceTree = "<group>"; };
 		D6BEF16C243AEDC700828273 /* XYZTimeKit_XYZDate_DateToString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZTimeKit_XYZDate_DateToString.swift; sourceTree = "<group>"; };
 		D6BEF16F243AEE1000828273 /* testFactory_LifeCycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testFactory_LifeCycle.swift; sourceTree = "<group>"; };
@@ -414,6 +416,7 @@
 				D6BEF17B243C568800828273 /* XYZTime_XYZDate_CountDays.swift */,
 				D6BEF17D243C583E00828273 /* XYZTime_DateToString_ForApp.swift */,
 				D6EC527025F9E0C300824EF0 /* MusicDate.swift */,
+				D6531C7327AF58FE00AE4E0F /* XYZDateCompare.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -963,6 +966,7 @@
 				D6E31B132473DB5A001B2026 /* TimePeriod.swift in Sources */,
 				D6E31B212473DB5A001B2026 /* RelativeFormatter+Style.swift in Sources */,
 				D6E31B112473DB5A001B2026 /* Zones.swift in Sources */,
+				D6531C7427AF58FE00AE4E0F /* XYZDateCompare.swift in Sources */,
 				D6E31B1F2473DB5A001B2026 /* ISOParser.swift in Sources */,
 				D6E31B9E2473DB5A001B2026 /* ISOFormatter.swift in Sources */,
 				D6E31BA12473DB5A001B2026 /* String+Parser.swift in Sources */,
