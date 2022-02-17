@@ -20,8 +20,7 @@ Pod::Spec.new do |s|
     s.license      = "MIT"
     s.swift_version = '5.0'
     s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
-    s.ios.deployment_target = '13.0'
-   # s.dependency 'SwiftDate'
+    s.ios.deployment_target = '13.0' 
     s.author             = { "Brandy" => "" }
     s.authors            = { "Brandy" => "zhangqianbrandy2012@gmail.com" }
     s.platform     = :ios, "13.0"
