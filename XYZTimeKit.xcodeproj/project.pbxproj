@@ -183,6 +183,8 @@
 		D6E31BA12473DB5A001B2026 /* String+Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E31B032473DB5A001B2026 /* String+Parser.swift */; };
 		D6E31BA22473DB5A001B2026 /* Int+DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E31B042473DB5A001B2026 /* Int+DateComponents.swift */; };
 		D6E31BA32473DB5A001B2026 /* DateRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E31B052473DB5A001B2026 /* DateRepresentable.swift */; };
+		D6EBA21A28234B0C00E8C41A /* PickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EBA21928234B0C00E8C41A /* PickerVC.swift */; };
+		D6EBA21C28234CAB00E8C41A /* XYZDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EBA21B28234CAB00E8C41A /* XYZDatePicker.swift */; };
 		D6EC527125F9E0C300824EF0 /* MusicDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EC527025F9E0C300824EF0 /* MusicDate.swift */; };
 /* End PBXBuildFile section */
 
@@ -370,6 +372,8 @@
 		D6E31B032473DB5A001B2026 /* String+Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Parser.swift"; sourceTree = "<group>"; };
 		D6E31B042473DB5A001B2026 /* Int+DateComponents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Int+DateComponents.swift"; sourceTree = "<group>"; };
 		D6E31B052473DB5A001B2026 /* DateRepresentable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateRepresentable.swift; sourceTree = "<group>"; };
+		D6EBA21928234B0C00E8C41A /* PickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerVC.swift; sourceTree = "<group>"; };
+		D6EBA21B28234CAB00E8C41A /* XYZDatePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XYZDatePicker.swift; sourceTree = "<group>"; };
 		D6EC527025F9E0C300824EF0 /* MusicDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -405,6 +409,7 @@
 		D6BEF169243AED8D00828273 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				D6EBA21B28234CAB00E8C41A /* XYZDatePicker.swift */,
 				D6E31A5E2473DB5A001B2026 /* SwiftDate */,
 				D6BEF16A243AED9D00828273 /* XYZTimeKit.swift */,
 				D6BEF171243B0FC800828273 /* XYZTime_GoToAnotherDate.swift */,
@@ -454,6 +459,7 @@
 		D6D6278224396A46004B4E97 /* XYZTimeKit */ = {
 			isa = PBXGroup;
 			children = (
+				D6EBA21928234B0C00E8C41A /* PickerVC.swift */,
 				D6BEF169243AED8D00828273 /* Source */,
 				D6D6278324396A46004B4E97 /* AppDelegate.swift */,
 				D6D6278524396A46004B4E97 /* SceneDelegate.swift */,
@@ -925,6 +931,7 @@
 				D6E31B0B2473DB5A001B2026 /* DateInRegion.swift in Sources */,
 				D6E31B0C2473DB5A001B2026 /* SwiftDate.swift in Sources */,
 				D6E31B202473DB5A001B2026 /* RelativeFormatter.swift in Sources */,
+				D6EBA21C28234CAB00E8C41A /* XYZDatePicker.swift in Sources */,
 				D6E31B092473DB5A001B2026 /* DateInRegion+Math.swift in Sources */,
 				D6D6278824396A46004B4E97 /* testFactory.swift in Sources */,
 				D6BEF176243C0AF700828273 /* XYZTime_XYZClock.swift in Sources */,
@@ -950,6 +957,7 @@
 				D6BEF17A243C50C200828273 /* XYZTime_XYZDate_StringType.swift in Sources */,
 				D6E31BA32473DB5A001B2026 /* DateRepresentable.swift in Sources */,
 				D6E31B192473DB5A001B2026 /* Date.swift in Sources */,
+				D6EBA21A28234B0C00E8C41A /* PickerVC.swift in Sources */,
 				D6E31B1D2473DB5A001B2026 /* Date+Create.swift in Sources */,
 				D6BEF170243AEE1000828273 /* testFactory_LifeCycle.swift in Sources */,
 				D6E31B122473DB5A001B2026 /* Calendars.swift in Sources */,

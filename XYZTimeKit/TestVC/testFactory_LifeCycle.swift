@@ -16,9 +16,9 @@ extension Date{
 }
 extension String{
     func PrintX()  {
-        print("👌👌👌👌👌")
-        print(self.count)
-        print(self)
+//        print("👌👌👌👌👌")
+//        print(self.count)
+//        print(self)
     }
 }
 
