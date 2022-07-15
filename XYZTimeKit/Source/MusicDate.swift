@@ -10,10 +10,11 @@ import Foundation
 
 public extension Float64{
    
-   var ToString分秒:String{
+    var ToString分秒:String{
        return 处理显示的数字(Seconds: self)
-   }
-   private func 处理显示的数字(Seconds:Float64) -> String {
+    }
+
+    func 处理显示的数字(Seconds:Float64) -> String {
        var 分钟位 = "00"
        if Int(Seconds)/60 < 10 {
            分钟位 = "0" + "\(Int(Seconds)/60)"
