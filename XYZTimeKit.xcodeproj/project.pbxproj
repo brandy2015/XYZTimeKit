@@ -18,6 +18,7 @@
 		D6BEF17A243C50C200828273 /* XYZTime_XYZDate_StringType.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEF179243C50C200828273 /* XYZTime_XYZDate_StringType.swift */; };
 		D6BEF17C243C568800828273 /* XYZTime_XYZDate_CountDays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEF17B243C568800828273 /* XYZTime_XYZDate_CountDays.swift */; };
 		D6BEF17E243C583E00828273 /* XYZTime_DateToString_ForApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BEF17D243C583E00828273 /* XYZTime_DateToString_ForApp.swift */; };
+		D6D09DE42883E1FB007B6502 /* CurrentComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D09DE32883E1FB007B6502 /* CurrentComponent.swift */; };
 		D6D6278424396A46004B4E97 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6278324396A46004B4E97 /* AppDelegate.swift */; };
 		D6D6278624396A46004B4E97 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6278524396A46004B4E97 /* SceneDelegate.swift */; };
 		D6D6278824396A46004B4E97 /* testFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6278724396A46004B4E97 /* testFactory.swift */; };
@@ -201,6 +202,7 @@
 		D6BEF179243C50C200828273 /* XYZTime_XYZDate_StringType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZTime_XYZDate_StringType.swift; sourceTree = "<group>"; };
 		D6BEF17B243C568800828273 /* XYZTime_XYZDate_CountDays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZTime_XYZDate_CountDays.swift; sourceTree = "<group>"; };
 		D6BEF17D243C583E00828273 /* XYZTime_DateToString_ForApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XYZTime_DateToString_ForApp.swift; sourceTree = "<group>"; };
+		D6D09DE32883E1FB007B6502 /* CurrentComponent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentComponent.swift; sourceTree = "<group>"; };
 		D6D6278024396A46004B4E97 /* XYZTimeKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYZTimeKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6D6278324396A46004B4E97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D6D6278524396A46004B4E97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -419,6 +421,7 @@
 				D6BEF17B243C568800828273 /* XYZTime_XYZDate_CountDays.swift */,
 				D6BEF17D243C583E00828273 /* XYZTime_DateToString_ForApp.swift */,
 				D6EC527025F9E0C300824EF0 /* MusicDate.swift */,
+				D6D09DE32883E1FB007B6502 /* CurrentComponent.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -926,6 +929,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6E31B0B2473DB5A001B2026 /* DateInRegion.swift in Sources */,
+				D6D09DE42883E1FB007B6502 /* CurrentComponent.swift in Sources */,
 				D6E31B0C2473DB5A001B2026 /* SwiftDate.swift in Sources */,
 				D6E31B202473DB5A001B2026 /* RelativeFormatter.swift in Sources */,
 				D6EBA21C28234CAB00E8C41A /* XYZDatePicker.swift in Sources */,
